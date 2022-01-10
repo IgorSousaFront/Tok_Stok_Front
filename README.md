@@ -1,7 +1,10 @@
-### `npm start`
+# Desafio Frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Instale as dependências usando o comando 
+`npm install`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Inicie o projeto usando o comando 
+`npm start`
+
+### Abra este link no seu navegador
+[http://localhost:3000](http://localhost:3000)
