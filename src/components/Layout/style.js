@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  margin: 8rem auto 0;
+  padding: 8rem 2rem;
+  margin: 0 auto;
   max-width: 900px;
 `
 
@@ -29,3 +30,20 @@ export const Actions = styled.footer`
   display: flex;
   justify-content: flex-end;
 `
+
+export const Label = styled.label`
+  font-size: 1rem;
+  color: ${props => props.theme.colors.black};
+  margin-bottom: .5rem;
+  display: block;
+`
+
+export const InputField = styled.input`
+  display: block;
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: .25rem;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .05);
+  margin-bottom: 1rem;
+` 
